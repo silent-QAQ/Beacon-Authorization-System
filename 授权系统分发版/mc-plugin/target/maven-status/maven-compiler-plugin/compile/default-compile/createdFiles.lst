@@ -1,0 +1,3 @@
+com\beaconmc\auth\BeaconAuth.class
+com\beaconmc\auth\AuthManager.class
+com\beaconmc\auth\AuthAPI.class

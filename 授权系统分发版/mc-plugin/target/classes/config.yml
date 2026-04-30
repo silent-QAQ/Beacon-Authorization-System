@@ -1,0 +1,22 @@
+# Beacon 平台授权配置
+# 请填写您的 Beacon 平台账号（无需密码）以及每个插件的授权码
+auth:
+  account: ""
+  # API 地址 (请根据实际部署地址修改)
+  api-url: "http://47.110.67.183:5000/api/authorizations/verify"
+
+# 插件授权白名单
+# 每个需要使用授权验证的插件都必须在此列出，并填写对应的授权码
+# 授权码可在 Beacon 平台「授权中心 → 我的授权」页面查看
+# 注意：未填写授权码或授权码无效的插件将被拒绝加载
+#
+# 示例：
+# plugins:
+#   - name: "SuperSword"
+#     auth_code: "BC-A1B2C3D4E5F6G7H8"
+#   - name: "MagicWand"
+#     auth_code: "BC-XXXXXXXXXXXX"
+plugins: []
+
+# 调试模式
+debug: false

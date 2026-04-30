@@ -1,0 +1,12 @@
+name: BeaconAuth
+version: 1.0.0
+main: com.beaconmc.auth.BeaconAuth
+api-version: 1.20
+authors: [Trae]
+folia-supported: true
+description: Beacon 平台付费插件授权系统
+commands:
+  beaconauth:
+    description: 授权系统管理指令
+    usage: /beaconauth <reload|status>
+    permission: beaconauth.admin
