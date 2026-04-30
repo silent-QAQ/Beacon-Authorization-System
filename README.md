@@ -1,0 +1,2 @@
+# Beacon-Authorization-System
+如果你想要依靠写付费mc插件来获得一些补贴，可以使用我们的项目，这个项目是网页前后端加qq机器人加前置插件
